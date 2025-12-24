@@ -1,5 +1,5 @@
 # Brute force method for sorting the array and fixing that b[1] is second smallest number and a[n-2] is the seond largest number
-def second_min_max(a):
+def unique_sorted_array(a):
     c,d=set(),[]
     l=len(a)
     for i in range(0,l):
@@ -30,7 +30,7 @@ def optimized(a):
 a=[0,0,0]
 d=[]
 
-d=second_min_max(a)
+d=unique_sorted_array(a)
 if(len(d)<2):
         print("Can't evaluate, number of unique elements shoud be higher then 2") 
 
