@@ -28,7 +28,7 @@ This repository is created for python Data Structures and Algorithm practice, ev
 
 
 ## How I work 
-- Every start with two problems.
+- Every day start with two problems.
 - First I will understand what the problem is and how we humans solve it by mathematical or logical thinking.
 - Later I will try to implement my own program and I managed to reach brute force without internet help as I know the fundamentals of python already.
 - I will find the time and space complexity of the code and check for minor checks and think for optmized method.
