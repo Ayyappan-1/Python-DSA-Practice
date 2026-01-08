@@ -1,0 +1,19 @@
+# Printing 1 to N numbers by recursion method which has the time complexity of O(n) and space complexity of O(n)
+def print_1_to_n(n): 
+    if(n==0):
+        return 
+    print_1_to_n(n-1)
+    print(n)
+
+# Printing N to 1 numbers by recursion method which has the time complexity of O(n) and space complexity of O(n)
+def print_n_to_1(n):
+    if(n==0):
+        return 
+    print(n)
+    print_n_to_1(n-1)
+    
+n=int(input("Enter the Number :"))
+print("1 to N")
+print_1_to_n(n)
+print("N to 1")
+print_n_to_1(n)
