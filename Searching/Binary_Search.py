@@ -2,7 +2,7 @@
 def binary_search(a,target):
     low=0
     l=high=len(a)-1
-    for i in range(high+1):
+    while(high>=low):
         mid=(high+low)//2
         if(a[mid]==target):
             return mid
